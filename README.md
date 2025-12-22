@@ -2,6 +2,8 @@
 
 React project implementing a favicon that changes with the operating system color scheme (light or dark).
 
+Resource: [https://catalin.red/svg-favicon-light-dark-theme/](https://catalin.red/svg-favicon-light-dark-theme/)
+
 ## Application Tech Stack
 
 -   `React` framework (with Typescript) for the overall application development;
