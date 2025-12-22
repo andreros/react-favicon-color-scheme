@@ -1,4 +1,4 @@
-# React Favicon
+# React System Color Scheme depending Favicon
 
 React project implementing a favicon that changes with the operating system color scheme (light or dark).
 
