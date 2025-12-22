@@ -1,0 +1,36 @@
+{
+	"name": "react-favicon",
+	"description": "React project implementing a favicon that changes with the operating system mode (light or dark).",
+	"version": "1.0.0",
+	"author": {
+		"name": "André Rosa",
+		"email": "andreros@gmail.com"
+	},
+	"license": "Unlicense",
+	"scripts": {
+		"build": "rsbuild build",
+		"dev": "rsbuild dev --open --port 8001",
+		"preview": "rsbuild preview",
+		"lint": "biome check .",
+		"lint:fix": "biome format . --write",
+		"nuke": "rm -rf /node_modules pnpm-lock.yaml && pnpm i"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@rsbuild/core": "1.6.15",
+		"@rsbuild/plugin-react": "1.4.2",
+		"@twind/core": "1.1.3",
+		"@twind/preset-container-queries": "1.0.7",
+		"@twind/preset-line-clamp": "1.0.7",
+		"@twind/preset-tailwind": "1.1.4",
+		"@types/node": "25.0.3",
+		"@types/react": "19.2.7",
+		"@types/react-redux": "7.1.34",
+		"tailwindcss": "3.4.17",
+		"typescript": "5.9.3"
+	},
+	"dependencies": {
+		"react": "19.2.3",
+		"react-dom": "19.2.3"
+	}
+}
