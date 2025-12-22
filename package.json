@@ -1,6 +1,6 @@
 {
-	"name": "react-favicon",
-	"description": "React project implementing a favicon that changes with the operating system mode (light or dark).",
+	"name": "react-favicon-color-scheme",
+	"description": "React project implementing a favicon that changes with the operating system color scheme (light or dark).",
 	"version": "1.0.0",
 	"author": {
 		"name": "André Rosa",

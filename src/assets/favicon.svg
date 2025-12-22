@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 160.5 140">
+  <!-- Light / Dark themed SVG favicon -->
+  <!-- https://catalin.red/svg-favicon-light-dark-theme/ -->
   <style>
     .stroke {
       fill: none;
