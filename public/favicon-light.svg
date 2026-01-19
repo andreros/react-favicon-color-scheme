@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 160.5 140">
+  <!-- Light / Dark themed SVG favicon -->
+  <!-- https://catalin.red/svg-favicon-light-dark-theme/ -->
+  <style>
+    .stroke {
+      fill: none;
+      stroke: #2c3e50;
+      stroke-width: 17;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 1
+    }
+
+    .stroke-1 {
+      stroke: #2c3e50;
+    }
+
+    .stroke-2 {
+      stroke: #e74c3c;
+    }
+  </style>
+  <path d="M49.5 111l-41-41 41-41M111 111l41-41-41-41" class="stroke stroke-1"/>
+  <path d="M70 131.5l20.5-123" class="stroke stroke-2"/>
+</svg>
