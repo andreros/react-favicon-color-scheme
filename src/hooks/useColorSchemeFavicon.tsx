@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-export type useColorScehemFaviconProps = {
+export type useColorSchemeFaviconProps = {
     faviconSelector?: string;
     faviconDark: string;
     faviconLight: string;
@@ -8,7 +8,7 @@ export type useColorScehemFaviconProps = {
     onLightModeEnabled?: (event: MediaQueryListEvent) => void;
 }
 
-export const useColorSchemeFavicon = ({ faviconSelector, faviconDark, faviconLight, onDarkModeEnabled, onLightModeEnabled }: useColorScehemFaviconProps) => {
+export const useColorSchemeFavicon = ({ faviconSelector, faviconDark, faviconLight, onDarkModeEnabled, onLightModeEnabled }: useColorSchemeFaviconProps) => {
     useEffect(() => {
         const match = (event: MediaQueryListEvent) => {
             const selector = faviconSelector ?? '[rel="icon"]';
